@@ -1,1 +1,16 @@
-
+variables:-
+       acts as a cpntainer to store the values.
+        >>x=5(here x is a variable and 5 is a value)
+        id(x):- this is used to find the memory location of variable x
+datatypes:-
+        it represents the type of data which is stord in a variable or in a memory.
+        two main types:
+                  ->built-in dataype (it means pre defined)
+                  ->user defined data type
+                          Built-in dataype:
+                          ->None : means no value(null)
+                          ->Numeric : 1.int,2.float,3.complex,4.bool
+                          ->Sequences
+                          ->Sets
+                          ->Mapping/Dictionaries
+          type(a) :- this gives the datype of variable a.

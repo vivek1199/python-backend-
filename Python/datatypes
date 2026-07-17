@@ -1,0 +1,12 @@
+datatypes:-
+        it represents the type of data which is stord in a variable or in a memory.
+        two main types:
+                  ->built-in dataype (it means pre defined)
+                  ->user defined data type
+                          Built-in dataype:
+                          ->None : means no value(null)
+                          ->Numeric : 1.int,2.float,3.complex,4.bool
+                          ->Sequences : 1.string,2.tuple,3.list,4.range
+                          ->Sets : it is a unordered collection of elements.(not supports indexing)
+                          ->Mapping/Dictionaries : it works acc. to (key:value) pair.
+          type(a) :- this gives the datype of variable a.

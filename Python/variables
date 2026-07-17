@@ -1,1 +1,4 @@
-
+variables:-
+       acts as a cpntainer to store the values.
+        >>x=5(here x is a variable and 5 is a value)
+        id(x):- this is used to find the memory location of variable x

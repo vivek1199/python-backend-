@@ -1,0 +1,12 @@
+OPERATORS:-
+                                          x+y
+
+                            here (x&y) are operands     &    (+) is a operator
+
+types:
+1.Arithmatic: 1.addition(+),2.subtraction(-),3.multiplication(*),4.Diviion(/),5.Modulus(%),6.Quotient(//),7.Exponent(**)
+2.Assignment: it is used to store the right side value into left side variable.
+3.Unary Minus: it is denoted by symbol (-),it negates the value of variable when it applied before the variable.
+4.Relational: it is used to compare the to quantities or bring out some relation between two quantities.
+5.Logical: using this we perform some logics.
+6.Boolean: this is basically a combination of logical and assignment operators.

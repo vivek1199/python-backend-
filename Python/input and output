@@ -1,0 +1,12 @@
+input and output :
+
+                     INPUT         ->                  PROCESS              ->           OUTPUT
+       (Take input from user )         (Process the input using some logic)       (Gives output) 
+
+      Output Statements:
+            >>>print("Hello World")
+            Hello World
+
+                Print-> it is a function(function is a code that is already written and used several times)
+                ("Hello World")-> is an Argument(argument can be of any datatype)
+

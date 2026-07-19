@@ -1,0 +1,9 @@
+FUNCTION:
+  a function is a code that is already written and used several times.
+
+it is of to types:-
+    1.Built-in : the functions that are pre-written and we use accordingly.
+    2.user-defined: the functions that we write during the code according to our use.
+
+
+>>>dir(__builtins__) :- this gives all built-in function list.

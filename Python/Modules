@@ -1,0 +1,7 @@
+MODULES:
+        Modules are big bunch of codes that have their own functionality.
+(import) is used to add module in code.
+
+      Ex:-     >>>import math 
+               >>>math.sqrt(5)
+               2.23606797749979

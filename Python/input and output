@@ -10,3 +10,11 @@ input and output :
                 Print-> it is a function(function is a code that is already written and used several times)
                 ("Hello World")-> is an Argument(argument can be of any datatype)
 
+      Input statements:
+            python provides a built-in input function, and this function takes value from keyboard and return the strings.
+
+                  Ex:-  >>>my_name=input()
+                        Vivek
+                        >>>print(my_name)
+                        Vivek
+                  

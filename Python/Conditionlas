@@ -13,3 +13,13 @@ Else statements:
           Stop
 
 Indentation:- it refers to the spaces at begining of a code line.
+
+Elif staements:
+
+          >>>std=input("Enter your name:")
+          >>>if std=="Vivek":
+                print("Proceed to room no. 1")
+          >>>elif std=="Ramesh":
+                print("Proceed to room no, 2")
+          >>>else:
+                print("please check and try agian!")

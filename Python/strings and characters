@@ -1,0 +1,27 @@
+COMMENTS:
+
+      1:-(#): Single line comment
+
+              Ex:- age=12
+                   if age>13: #condition
+                       print("Teenage")
+
+      2:-('''  '''): Multiple line comments
+
+              Ex:- 
+                 '''
+                 this is a comments
+                 another line of comments
+                 more line of comment
+                 '''
+METHODS: 
+        A method is a function that is available for the objects because of the objects type.
+
+               x="hello world"
+               y="HELLO WORLD"
+
+               print(x.capitalize())         ():- it is mandatory to apply after method
+               print(y.capitalize())
+
+               Hello world
+               Hello world

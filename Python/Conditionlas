@@ -1,0 +1,15 @@
+IF Statements:
+          >>>age=18
+          >>>if age==18:
+          >>>   print("You are now Adult.")
+          You are now Adult.
+
+Else statements:
+          >>>light="Red"
+          >>>if light=="Red":
+                print("Stop")
+          >>>else:
+                print("Go")
+          Stop
+
+Indentation:- it refers to the spaces at begining of a code line.

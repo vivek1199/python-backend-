@@ -1,0 +1,33 @@
+break:- it is used to break the loop.
+continue:- it can use to skip 1 iteration from the loop.
+
+  break:
+        a=[0,1,2,3,4,5]
+        for x in a:
+            if x==2:
+               break
+            print(x)
+
+        i=0
+        while i<5:
+            if i==3:
+                break
+            print(i)
+            i=+1
+
+
+  continue:
+          a=[0,1,2,3,4,5]
+          for x in a:
+              if x==2:
+                  continue
+              print(x)
+
+
+
+            i=0
+            while i in a:
+                  i=+1
+                  if i==3:
+                     continue 
+                  print(i)

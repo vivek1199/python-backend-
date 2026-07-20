@@ -1,0 +1,15 @@
+LOOPS:-
+      it is used when we have to perform any task several times then we use loops.
+
+
+while loop:-
+        >>>x=0
+        >>>while x<6:
+              print("Current value of x:",x)
+              x=+1
+
+
+for loop:-
+        a=[0,1,2,3,4,5]
+        for i in a:
+              print(i)

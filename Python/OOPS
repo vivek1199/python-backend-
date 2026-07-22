@@ -1,0 +1,29 @@
+# OOPs in Python 🐍
+
+## What is OOP?
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code using **classes** and **objects**.
+
+### Class & Object
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Vivek")
+print(s1.name)
+```
+
+## Four Pillars of OOP
+
+- **Encapsulation** → Wraps data and methods into a single unit.
+- **Abstraction** → Hides implementation details.
+- **Inheritance** → Reuses properties and methods of another class.
+- **Polymorphism** → Same method, different behavior.
+
+## Key Points
+
+- **Class** → Blueprint for creating objects.
+- **Object** → Instance of a class.
+- **`self`** → Refers to the current object.
+- **`__init__()`** → Constructor, called automatically when an object is created.

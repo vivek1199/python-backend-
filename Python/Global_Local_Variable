@@ -1,0 +1,30 @@
+# Global vs Local Variables in Python 🐍
+
+### Local Variable
+Declared **inside a function** and accessible only within that function.
+
+```python
+def greet():
+    name = "Vivek"
+    print(name)
+```
+
+### Global Variable
+Declared **outside a function** and accessible throughout the program.
+
+```python
+name = "Vivek"
+
+def greet():
+    print(name)
+```
+
+### Modify Global Variable
+
+```python
+count = 10
+
+def update():
+    global count
+    count = 20
+```

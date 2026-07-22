@@ -1,0 +1,14 @@
+TUPLE:-
+it is a sequence of immutable python objects.
+tuple are just like lists with the exception that types cannot be changed once declared.
+tuples are usually fater than lists.
+
+a=(10,20,30,40,50,60)
+
+concatenation of tuple:-
+    a=(10,20)
+    b=(30,40)
+    c=a+b
+    c
+    (10,20,30,40)
+

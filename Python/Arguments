@@ -1,0 +1,53 @@
+# Arguments in Python 🐍
+
+## What are Arguments?
+Arguments are the values passed to a function when calling it.
+
+```python
+def greet(name):
+    print(f"Hello, {name}")
+
+greet("Vivek")
+```
+
+## Types of Arguments
+
+### 1. Positional Argument
+```python
+def add(a, b):
+    print(a + b)
+
+add(10, 20)
+```
+
+### 2. Keyword Argument
+```python
+def student(name, age):
+    print(name, age)
+
+student(age=21, name="Vivek")
+```
+
+### 3. Default Argument
+```python
+def greet(name="Guest"):
+    print(f"Hello, {name}")
+
+greet()
+```
+
+### 4. Variable-Length Argument (`*args`)
+```python
+def total(*numbers):
+    print(sum(numbers))
+
+total(10, 20, 30)
+```
+
+### 5. Keyword Variable-Length Argument (`**kwargs`)
+```python
+def info(**data):
+    print(data)
+
+info(name="Vivek", age=21)
+```

@@ -1,0 +1,31 @@
+LIST:- 
+it is a collection of items which is stored in a variable , and the items are stored in a order.
+
+List is a mutable datatype, we can further make changes in this
+
+Ex:- x=["Vivek",22,"CSE","Python"]
+
+Python has 11 built-in methods used to manipulate and interact with lists. 
+
+Adding Elements:
+
+append(): Adds an element to the end of the list.
+extend(): Adds all elements of another iterable (like a list) to the end.
+insert(): Adds an element at a specific index position. 
+
+Removing Elements:
+
+pop(): Removes and returns the element at a given position (defaults to the last item).
+remove(): Removes the first occurrence of a specific value.
+clear(): Removes all elements, leaving the list completely empty. 
+
+Finding and Counting Elements:
+
+index(): Returns the index position of the first occurrence of a specific value.
+count(): Returns the total number of times a specific value appears in the list. 
+
+Ordering and Copying:
+
+sort(): Sorts the items of the list in place (ascending by default).
+reverse(): Reverses the order of the items in place.
+copy(): Returns a shallow copy of the entire list. 

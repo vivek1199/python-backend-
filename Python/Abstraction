@@ -1,0 +1,32 @@
+# Abstraction in Python 🎭
+
+## What is Abstraction?
+Abstraction hides implementation details and shows only the essential functionality.
+
+### Example
+
+```python
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Dog(Animal):
+    def sound(self):
+        print("Bark")
+
+d = Dog()
+d.sound()
+```
+
+**Output**
+```
+Bark
+```
+
+## Key Points
+- Use the **`abc`** module to create abstract classes.
+- **`@abstractmethod`** forces child classes to implement the method.
+- Helps hide implementation details.

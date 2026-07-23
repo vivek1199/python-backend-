@@ -1,0 +1,33 @@
+# Multiple Inheritance in Python 🐍
+
+## What is Multiple Inheritance?
+A class inherits properties and methods from **more than one parent class**.
+
+### Example
+
+```python
+class Father:
+    def show1(self):
+        print("Father")
+
+class Mother:
+    def show2(self):
+        print("Mother")
+
+class Child(Father, Mother):
+    pass
+
+c = Child()
+c.show1()
+c.show2()
+```
+
+**Output**
+```
+Father
+Mother
+```
+
+## Key Points
+- A child class can inherit from **multiple parent classes**.
+- Promotes **code reusability**.

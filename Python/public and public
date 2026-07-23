@@ -1,0 +1,32 @@
+# Public and Private Methods in Python 🔐
+
+## Public Method
+Can be accessed from anywhere.
+
+```python
+class Demo:
+    def show(self):
+        print("Public Method")
+
+d = Demo()
+d.show()
+```
+
+## Private Method
+Declared using `__` and can only be accessed inside the class.
+
+```python
+class Demo:
+    def __hidden(self):
+        print("Private Method")
+
+    def display(self):
+        self.__hidden()
+
+d = Demo()
+d.display()
+```
+
+## Key Point
+- **Public Method** → Accessible from anywhere.
+- **Private Method (`__method`)** → Accessible only within the class.

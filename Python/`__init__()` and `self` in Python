@@ -1,0 +1,32 @@
+# `__init__()` and `self` in Python 🐍
+
+## `__init__()`
+The **constructor** that is called automatically when an object is created.
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s = Student("Vivek")
+```
+
+## `self`
+`self` refers to the **current object** of the class.
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def show(self):
+        print(self.name)
+
+s = Student("Vivek")
+s.show()
+```
+
+## Key Points
+- **`__init__()`** → Initializes object data.
+- **`self`** → Refers to the current object.
+- `self` is used to access object variables and methods.

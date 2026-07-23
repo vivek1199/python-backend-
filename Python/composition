@@ -1,0 +1,32 @@
+# Composition in Python 🧩
+
+## What is Composition?
+Composition is a relationship where **one class contains an object of another class**.
+
+### Example
+
+```python
+class Engine:
+    def start(self):
+        print("Engine Started")
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()
+
+    def drive(self):
+        self.engine.start()
+
+c = Car()
+c.drive()
+```
+
+**Output**
+```
+Engine Started
+```
+
+## Key Points
+- One class **has** another class as an object.
+- Represents a **"has-a"** relationship.
+- Improves code reusability and flexibility.

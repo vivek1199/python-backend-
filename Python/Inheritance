@@ -1,0 +1,28 @@
+# Inheritance in Python 🧬
+
+## What is Inheritance?
+Inheritance allows a **child class** to reuse the properties and methods of a **parent class**.
+
+### Example
+
+```python
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+class Dog(Animal):
+    pass
+
+d = Dog()
+d.sound()
+```
+
+**Output**
+```
+Animal makes a sound
+```
+
+## Key Points
+- **Parent Class** → Class whose properties are inherited.
+- **Child Class** → Class that inherits from the parent.
+- Promotes **code reusability**.

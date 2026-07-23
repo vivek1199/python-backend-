@@ -1,0 +1,31 @@
+# Aggregation in Python 🤝
+
+## What is Aggregation?
+Aggregation is a relationship where **one class uses an object of another class**, but both can exist independently.
+
+### Example
+
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+class College:
+    def __init__(self, student):
+        self.student = student
+
+s = Student("Vivek")
+c = College(s)
+
+print(c.student.name)
+```
+
+**Output**
+```
+Vivek
+```
+
+## Key Points
+- Represents a **"has-a"** relationship.
+- Objects can **exist independently**.
+- Promotes code reusability.

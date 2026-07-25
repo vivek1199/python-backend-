@@ -1,0 +1,30 @@
+# File Handling in Python 📂
+
+## What is File Handling?
+File handling is used to **create, read, write, and append data** in files.
+
+### Example
+
+```python
+# Write to a file
+with open("data.txt", "w") as file:
+    file.write("Hello, Python!")
+```
+
+### Read a File
+
+```python
+with open("data.txt", "r") as file:
+    print(file.read())
+```
+
+**Output**
+```
+Hello, Python!
+```
+
+## Key Points
+- **`"r"`** → Read a file.
+- **`"w"`** → Write to a file.
+- **`"a"`** → Append data to a file.
+- **`with open()`** automatically closes the file.

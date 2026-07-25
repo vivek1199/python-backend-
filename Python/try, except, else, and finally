@@ -1,0 +1,38 @@
+# `try`, `except`, `else`, and `finally` in Python 🐍
+
+## `try`
+Contains code that may raise an exception.
+
+## `except`
+Handles the exception if it occurs.
+
+## `else`
+Executes only if no exception occurs.
+
+## `finally`
+Always executes, whether an exception occurs or not.
+
+### Example
+
+```python
+try:
+    num = 10 / 2
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+else:
+    print("Result:", num)
+finally:
+    print("Program Ended")
+```
+
+**Output**
+```
+Result: 5.0
+Program Ended
+```
+
+## Key Points
+- **`try`** → Risky code.
+- **`except`** → Handles errors.
+- **`else`** → Runs if no error occurs.
+- **`finally`** → Always runs.

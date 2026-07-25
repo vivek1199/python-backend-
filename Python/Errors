@@ -1,0 +1,32 @@
+# Errors in Python ⚠️
+
+## What are Errors?
+Errors are problems in a program that cause it to stop or produce incorrect results.
+
+### 1. Syntax Error
+Occurs when Python syntax is incorrect.
+
+```python
+print("Hello"
+```
+
+### 2. Runtime Error
+Occurs while the program is running.
+
+```python
+print(10 / 0)
+```
+
+### 3. Logical Error
+The program runs but gives the wrong output.
+
+```python
+a = 10
+b = 20
+print(a - b)   # Expected addition
+```
+
+## Key Points
+- **Syntax Error** → Invalid Python syntax.
+- **Runtime Error** → Occurs during execution.
+- **Logical Error** → Program runs but produces incorrect output.

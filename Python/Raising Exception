@@ -1,0 +1,23 @@
+# Raising Exceptions in Python 🚨
+
+## What is Raising an Exception?
+Use the **`raise`** keyword to manually generate an exception.
+
+### Example
+
+```python
+age = -5
+
+if age < 0:
+    raise ValueError("Age cannot be negative")
+```
+
+**Output**
+```
+ValueError: Age cannot be negative
+```
+
+## Key Points
+- **`raise`** → Manually throws an exception.
+- Used to validate input and handle invalid conditions.
+- Makes programs more reliable.

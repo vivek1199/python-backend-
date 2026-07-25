@@ -1,0 +1,24 @@
+# `__name__ == "__main__"` in Python 🐍
+
+## What is `__name__ == "__main__"`?
+It checks whether a Python file is **run directly** or **imported as a module**.
+
+### Example
+
+```python
+def greet():
+    print("Hello!")
+
+if __name__ == "__main__":
+    greet()
+```
+
+**Output (when run directly)**
+```
+Hello!
+```
+
+## Key Points
+- **`__name__`** → Special built-in variable.
+- **`__name__ == "__main__"`** → Executes the code only when the file is run directly.
+- Prevents code from running automatically when the file is imported.

@@ -1,0 +1,26 @@
+# Exception Handling in Python 🛡️
+
+## What is Exception Handling?
+Exception handling is the process of **handling runtime errors** so the program doesn't crash.
+
+### Example
+
+```python
+try:
+    num = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("Program Ended")
+```
+
+**Output**
+```
+Cannot divide by zero
+Program Ended
+```
+
+## Key Points
+- **`try`** → Code that may cause an exception.
+- **`except`** → Handles the exception.
+- **`finally`** → Always executes, whether an exception occurs or not.

@@ -29,4 +29,4 @@ print(a - b)   # Expected addition
 ## Key Points
 - **Syntax Error** → Invalid Python syntax.
 - **Runtime Error** → Occurs during execution.
-- **Logical Error** → Program runs but produces incorrect output.
+- **Logical Error** → Program runs but produces incorrect output..

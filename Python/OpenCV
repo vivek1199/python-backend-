@@ -1,0 +1,26 @@
+# OpenCV in Python 📷
+
+## What is OpenCV?
+**OpenCV (Open Source Computer Vision Library)** is a library used for **image processing, computer vision, and video analysis**.
+
+### Install
+
+```bash
+pip install opencv-python
+```
+
+### Example
+
+```python
+import cv2
+
+img = cv2.imread("image.jpg")
+cv2.imshow("Image", img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+## Key Points
+- Used for **image and video processing**.
+- Supports **face detection, object detection, and image filtering**.
+- Import using **`import cv2`**.

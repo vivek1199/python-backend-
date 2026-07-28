@@ -1,0 +1,29 @@
+# Django Request Flow 🌐
+
+## Django Flow
+
+```text
+Browser
+   │
+   ▼
+URL (urls.py)
+   │
+   ▼
+View (views.py)
+   │
+   ▼
+Model (models.py)  ← Database
+   │
+   ▼
+Template (HTML)
+   │
+   ▼
+Response to Browser
+```
+
+## Key Points
+- **URL** → Receives the request.
+- **View** → Processes the request and business logic.
+- **Model** → Interacts with the database.
+- **Template** → Displays the data.
+- **Response** → Sent back to the browser.

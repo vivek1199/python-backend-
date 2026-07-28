@@ -1,0 +1,34 @@
+# Django Project Structure 🌐
+
+## Basic Structure
+
+```text
+myproject/
+│── manage.py
+│── myproject/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+└── myapp/
+    ├── migrations/
+    ├── admin.py
+    ├── apps.py
+    ├── models.py
+    ├── tests.py
+    ├── views.py
+    └── urls.py
+```
+
+## Key Files
+
+- **manage.py** → Runs Django commands.
+- **settings.py** → Project settings.
+- **urls.py** → URL routing.
+- **views.py** → Business logic.
+- **models.py** → Database models.
+- **admin.py** → Admin panel configuration.
+- **apps.py** → App configuration.
+- **migrations/** → Database migration files.

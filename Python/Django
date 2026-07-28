@@ -1,0 +1,28 @@
+# Django 🌐
+
+## What is Django?
+**Django** is a **high-level Python web framework** used to build secure, scalable, and fast web applications.
+
+### Install
+
+```bash
+pip install django
+```
+
+### Create a Project
+
+```bash
+django-admin startproject myproject
+```
+
+### Run the Server
+
+```bash
+python manage.py runserver
+```
+
+## Key Points
+- Built using **Python**.
+- Follows the **MVT (Model-View-Template)** architecture.
+- Includes built-in features like **authentication, admin panel, and ORM**.
+- Ideal for **backend web development**.

@@ -1,0 +1,30 @@
+# URLs and Views in Django 🌐
+
+## URLs (`urls.py`)
+Maps a URL to a specific view.
+
+```python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("", views.home),
+]
+```
+
+---
+
+## Views (`views.py`)
+Handles the request and returns a response.
+
+```python
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Hello, Django!")
+```
+
+## Key Points
+- **`urls.py`** → Maps URLs to views.
+- **`views.py`** → Contains the application logic.
+- A view returns a **response** to the browser.

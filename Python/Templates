@@ -1,0 +1,24 @@
+# Templates in Django 📄
+
+## What are Templates?
+Templates are **HTML files** used to display dynamic data to users.
+
+### Example
+
+**views.py**
+```python
+from django.shortcuts import render
+
+def home(request):
+    return render(request, "home.html")
+```
+
+**home.html**
+```html
+<h1>Welcome to Django!</h1>
+```
+
+## Key Points
+- Templates store the **UI (HTML)** of the application.
+- The **`render()`** function displays a template.
+- Templates can display **dynamic data** using template tags.

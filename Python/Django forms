@@ -1,0 +1,39 @@
+# Django Forms 📝
+
+## What are Django Forms?
+Django Forms are used to **collect, validate, and process user input**.
+
+### Example
+
+**forms.py**
+```python
+from django import forms
+
+class StudentForm(forms.Form):
+    name = forms.CharField(max_length=100)
+```
+
+**views.py**
+```python
+from django.shortcuts import render
+from .forms import StudentForm
+
+def home(request):
+    form = StudentForm()
+    return render(request, "home.html", {"form": form})
+```
+
+**home.html**
+```html
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+</form>
+```
+
+## Key Points
+- **Forms** collect user input.
+- **`forms.Form`** creates a form.
+- **`{{ form.as_p }}`** displays the form.
+- **`{% csrf_token %}`** protects against CSRF attacks.

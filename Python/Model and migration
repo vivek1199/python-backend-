@@ -1,0 +1,31 @@
+# Models & Migrations in Django 🗄️
+
+## Model
+A **Model** defines the structure of a database table.
+
+### Example
+
+```python
+from django.db import models
+
+class Student(models.Model):
+    name = models.CharField(max_length=100)
+    age = models.IntegerField()
+```
+
+---
+
+## Migration
+Migrations apply model changes to the database.
+
+### Commands
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Key Points
+- **Model** → Represents a database table.
+- **`makemigrations`** → Creates migration files.
+- **`migrate`** → Applies changes to the database.

@@ -1,0 +1,28 @@
+# Fetch Data & Display on Template (Django) 📋
+
+## View (`views.py`)
+
+```python
+from .models import Student
+from django.shortcuts import render
+
+def home(request):
+    students = Student.objects.all()
+    return render(request, "home.html", {"students": students})
+```
+
+---
+
+## Template (`home.html`)
+
+```html
+{% for student in students %}
+    <p>{{ student.name }} - {{ student.age }}</p>
+{% endfor %}
+```
+
+## Key Points
+- **`objects.all()`** → Fetches all records.
+- **`render()`** → Passes data to the template.
+- **`{{ }}`** → Displays data.
+- **`{% for %}`** → Loops through records.

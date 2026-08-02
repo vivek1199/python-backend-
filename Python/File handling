@@ -28,3 +28,6 @@ Hello, Python!
 - **`"w"`** → Write to a file.
 - **`"a"`** → Append data to a file.
 - **`with open()`** automatically closes the file.
+
+
+........

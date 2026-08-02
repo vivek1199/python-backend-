@@ -7,3 +7,4 @@ it is of to types:-
 
 
 >>>dir(__builtins__) :- this gives all built-in function list.
+..........

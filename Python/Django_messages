@@ -1,0 +1,26 @@
+# Django Messages 💬
+
+## What are Django Messages?
+Django Messages are used to **display success, error, warning, or info messages** to users.
+
+### Example
+
+**views.py**
+```python
+from django.contrib import messages
+
+messages.success(request, "Data saved successfully!")
+```
+
+**template.html**
+```html
+{% for message in messages %}
+    <p>{{ message }}</p>
+{% endfor %}
+```
+
+## Key Points
+- **`messages.success()`** → Success message.
+- **`messages.error()`** → Error message.
+- **`messages.warning()`** → Warning message.
+- **`messages.info()`** → Information message.

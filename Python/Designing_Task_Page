@@ -1,0 +1,30 @@
+# Designing Task Page 🎨
+
+## What is a Task Page?
+A **Task Page** is used to display and manage tasks in a web application.
+
+### Features
+- ➕ Add a new task
+- 📋 View all tasks
+- ✏️ Edit a task
+- 🗑️ Delete a task
+- ✅ Mark a task as completed
+
+### Example (HTML)
+
+```html
+<h2>My Tasks</h2>
+
+<button>Add Task</button>
+
+<ul>
+    <li>Complete Django Project</li>
+    <li>Practice Python</li>
+</ul>
+```
+
+## Key Points
+- Keep the UI **simple and responsive**.
+- Use **Bootstrap** for styling.
+- Provide **Edit**, **Delete**, and **Complete** buttons for each task.
+- Display tasks in a clean list or table.

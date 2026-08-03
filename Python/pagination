@@ -1,0 +1,28 @@
+# Pagination in Django 📄
+
+## What is Pagination?
+Pagination is used to **split large amounts of data into multiple pages**.
+
+### Example
+
+**views.py**
+```python
+from django.core.paginator import Paginator
+
+students = Student.objects.all()
+paginator = Paginator(students, 5)   # 5 records per page
+page = request.GET.get("page")
+students = paginator.get_page(page)
+```
+
+**template.html**
+```html
+{% for student in students %}
+    {{ student.name }}
+{% endfor %}
+```
+
+## Key Points
+- **`Paginator`** divides data into pages.
+- **`get_page()`** returns the requested page.
+- Improves performance and user experience.

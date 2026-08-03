@@ -1,0 +1,34 @@
+# CRUD Functionality in Django 🗂️
+
+## What is CRUD?
+CRUD stands for the four basic database operations:
+
+- **C** → Create (Add Data)
+- **R** → Read (Fetch Data)
+- **U** → Update (Modify Data)
+- **D** → Delete (Remove Data)
+
+### Example
+
+```python
+# Create
+Student.objects.create(name="Vivek", age=21)
+
+# Read
+students = Student.objects.all()
+
+# Update
+student = Student.objects.get(id=1)
+student.name = "Rahul"
+student.save()
+
+# Delete
+student.delete()
+```
+
+## Key Points
+- **Create** → Add new records.
+- **Read** → Retrieve records.
+- **Update** → Modify existing records.
+- **Delete** → Remove records.
+- CRUD is the foundation of most Django applications.

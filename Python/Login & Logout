@@ -1,0 +1,29 @@
+# Login & Logout in Django 🔐
+
+## Login
+Allows a registered user to access the application.
+
+```python
+from django.contrib.auth import authenticate, login
+
+user = authenticate(username="vivek", password="1234")
+if user:
+    login(request, user)
+```
+
+---
+
+## Logout
+Logs out the current user.
+
+```python
+from django.contrib.auth import logout
+
+logout(request)
+```
+
+## Key Points
+- **`authenticate()`** → Verifies user credentials.
+- **`login()`** → Logs the user into the application.
+- **`logout()`** → Ends the user's session.
+- Django also provides built-in `LoginView` and `LogoutView`.

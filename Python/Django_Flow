@@ -27,3 +27,4 @@ Response to Browser
 - **Model** → Interacts with the database.
 - **Template** → Displays the data.
 - **Response** → Sent back to the browser.
+      

@@ -34,3 +34,4 @@ s.set_marks(95)
 - **Getter** → Reads private data.
 - **Setter** → Updates private data.
 - Helps achieve **encapsulation**.
+              

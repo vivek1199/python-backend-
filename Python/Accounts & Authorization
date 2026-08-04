@@ -1,0 +1,22 @@
+# Accounts & Authorization in Django 🔐
+
+## What is Authentication & Authorization?
+
+- **Authentication** → Verifies the user's identity (Login/Logout).
+- **Authorization** → Controls what an authenticated user is allowed to access.
+
+### Example
+
+```python
+from django.contrib.auth.decorators import login_required
+
+@login_required
+def dashboard(request):
+    return render(request, "dashboard.html")
+```
+
+## Key Points
+- **Authentication** → Login, Logout, Register users.
+- **Authorization** → Grants or restricts permissions.
+- **`@login_required`** → Allows access only to logged-in users.
+- Helps secure Django applications.

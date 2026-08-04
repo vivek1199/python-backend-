@@ -1,0 +1,21 @@
+# User Registration in Django 📝
+
+## What is Registration?
+Registration allows **new users to create an account**.
+
+### Example
+
+```python
+from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import render
+
+def register(request):
+    form = UserCreationForm()
+    return render(request, "register.html", {"form": form})
+```
+
+## Key Points
+- **`UserCreationForm`** creates a registration form.
+- Collects **username** and **password**.
+- Saves a new user account.
+- Used for user authentication.

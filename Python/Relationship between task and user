@@ -1,0 +1,23 @@
+# Relationship Between Task and User in Django 👤📋
+
+## What is the Relationship?
+A **User** can have **multiple Tasks**, but each **Task belongs to only one User**.
+
+This is a **One-to-Many** relationship implemented using a **ForeignKey**.
+
+### Example (`models.py`)
+
+```python
+from django.contrib.auth.models import User
+from django.db import models
+
+class Task(models.Model):
+    title = models.CharField(max_length=100)
+    manager = models.ForeignKey(User, on_delete=models.CASCADE)
+```
+
+## Key Points
+- **One User → Many Tasks**
+- **One Task → One User**
+- **`ForeignKey`** creates the relationship.
+- **`on_delete=models.CASCADE`** deletes the user's tasks if the user is deleted.

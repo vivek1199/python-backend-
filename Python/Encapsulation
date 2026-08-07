@@ -26,3 +26,4 @@ print(s.get_marks())
 - Use **`__` (double underscore)** to make variables private.
 - Access private data through **methods**.
          
+           

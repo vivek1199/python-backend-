@@ -37,3 +37,4 @@ def home(request):
 - **`forms.Form`** creates a form.
 - **`{{ form.as_p }}`** displays the form.
 - **`{% csrf_token %}`** protects against CSRF attacks.
+              

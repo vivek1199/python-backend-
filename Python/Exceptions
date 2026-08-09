@@ -21,3 +21,4 @@ Cannot divide by zero
 - **`try`** → Contains code that may cause an exception.
 - **`except`** → Handles the exception.
 - Prevents the program from crashing.
+                     

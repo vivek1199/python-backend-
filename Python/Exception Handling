@@ -24,4 +24,4 @@ Program Ended
 - **`try`** → Code that may cause an exception.
 - **`except`** → Handles the exception.
 - **`finally`** → Always executes, whether an exception occurs or not.
-..............
+          

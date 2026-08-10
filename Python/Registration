@@ -19,3 +19,4 @@ def register(request):
 - Collects **username** and **password**.
 - Saves a new user account.
 - Used for user authentication.
+                 

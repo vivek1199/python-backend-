@@ -6,5 +6,4 @@ it is of to types:-
     2.user-defined: the functions that we write during the code according to our use.
 
 
->>>dir(__builtins__) :- this gives all built-in function list.
-..........
+>>>dir(__builtins__) :- this gives all built-in function list........................

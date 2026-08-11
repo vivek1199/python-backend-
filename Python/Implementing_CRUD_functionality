@@ -31,5 +31,4 @@ student.delete()
 - **Read** → Retrieve records.
 - **Update** → Modify existing records.
 - **Delete** → Remove records.
-- CRUD is the foundation of most Django applications.
-              
+- CRUD is the foundation of most Django applications.......................

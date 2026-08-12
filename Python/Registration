@@ -18,5 +18,4 @@ def register(request):
 - **`UserCreationForm`** creates a registration form.
 - Collects **username** and **password**.
 - Saves a new user account.
-- Used for user authentication.
-                 
+- Used for user authentication........

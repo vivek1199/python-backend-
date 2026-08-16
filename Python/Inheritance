@@ -25,4 +25,5 @@ Animal makes a sound
 ## Key Points
 - **Parent Class** → Class whose properties are inherited.
 - **Child Class** → Class that inherits from the parent.
-- Promotes **code reusability**...................
+- Promotes **code reusability**
+`````````````````````````````````````````````````````````````````````````````````

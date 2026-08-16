@@ -23,5 +23,5 @@ cv2.destroyAllWindows()
 ## Key Points
 - Used for **image and video processing**.
 - Supports **face detection, object detection, and image filtering**.
-- Import using **`import cv2`**.
-                                           
+- Import using **`import cv2`**
+````````````````````````````````````````````````````````````````````````````

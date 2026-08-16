@@ -27,4 +27,4 @@ A **Task Page** is used to display and manage tasks in a web application.
 - Keep the UI **simple and responsive**.
 - Use **Bootstrap** for styling.
 - Provide **Edit**, **Delete**, and **Complete** buttons for each task.
-- Display tasks in a clean list or table.
+- Display tasks in a clean list or table............................

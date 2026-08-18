@@ -27,4 +27,4 @@ def home(request):
 ## Key Points
 - **`urls.py`** → Maps URLs to views.
 - **`views.py`** → Contains the application logic.
-- A view returns a **response** to the browser.
+- A view returns a **response** to the browser.............

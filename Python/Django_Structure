@@ -31,4 +31,4 @@ myproject/
 - **models.py** → Database models.
 - **admin.py** → Admin panel configuration.
 - **apps.py** → App configuration.
-- **migrations/** → Database migration files.
+- **migrations/** → Database migration files.......

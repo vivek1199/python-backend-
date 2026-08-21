@@ -20,5 +20,4 @@ class Task(models.Model):
 - **One User → Many Tasks**
 - **One Task → One User**
 - **`ForeignKey`** creates the relationship.
-- **`on_delete=models.CASCADE`** deletes the user's tasks if the user is deleted.
-              
+- **`on_delete=models.CASCADE`** deletes the user's tasks if the user is delayed........

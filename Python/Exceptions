@@ -20,4 +20,4 @@ Cannot divide by zero
 ## Key Points
 - **`try`** → Contains code that may cause an exception.
 - **`except`** → Handles the exception.
-- Prevents the program from crashing.
+- Prevents the program from crashing........

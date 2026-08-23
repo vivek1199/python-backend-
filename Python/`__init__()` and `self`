@@ -29,4 +29,4 @@ s.show()
 ## Key Points
 - **`__init__()`** → Initializes object data.
 - **`self`** → Refers to the current object.
-- `self` is used to access object variables and methods.
+- `self` is used to access object variables and methods...   

@@ -26,5 +26,4 @@ Response to Browser
 - **View** → Processes the request and business logic.
 - **Model** → Interacts with the database.
 - **Template** → Displays the data.
-- **Response** → Sent back to the browser.
-      
+- **Response** → Sent back to the browser.........

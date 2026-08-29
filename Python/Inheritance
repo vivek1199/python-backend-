@@ -26,4 +26,4 @@ Animal makes a sound
 - **Parent Class** → Class whose properties are inherited.
 - **Child Class** → Class that inherits from the parent.
 - Promotes **code reusability**
-`````````````````````````````````````````````````````````````````````````````````
+```````````````````````````````````````````````````````````````````````````````...
